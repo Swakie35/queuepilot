@@ -1,5 +1,7 @@
 # QueuePilot
 
+[![CI](https://github.com/Swakie35/queuepilot/actions/workflows/ci.yml/badge.svg)](https://github.com/Swakie35/queuepilot/actions/workflows/ci.yml)
+
 **A durable job runner that treats failure as a normal event.**
 
 Queues look simple until a worker crashes after claiming a task, a retry doubles an external side effect, or two workers race for the same job. This reference implementation explores those behaviours using SQLite transactions instead of hiding them behind infrastructure.
