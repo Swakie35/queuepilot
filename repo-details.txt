@@ -1,0 +1,3 @@
+GitHub name: queuepilot
+Description: Durable SQLite job queue with leases, idempotency, retries and dead-letter semantics.
+Topics: python,distributed-systems,sqlite,job-queue
